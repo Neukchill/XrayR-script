@@ -1,3 +1,18 @@
+#BBR
+不卸载内核版本
+```
+wget -O tcpx.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcpx.sh" && chmod +x tcpx.sh && ./tcpx.sh
+```
+卸载内核版本
+```
+wget -O tcp.sh "https://github.com/ylx2016/Linux-NetSpeed/raw/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh 
+```
+
+#GOST
+```
+wget --no-check-certificate -O gost.sh https://raw.githubusercontent.com/KANIKIG/Multi-EasyGost/master/gost.sh && chmod +x gost.sh && ./gost.sh
+```
+
 # XRayR
 A Xray backend framework that can easily support many panels.
 
@@ -20,3 +35,15 @@ OR
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/missovo/XrayR-script/main/install.sh)
 ```
+
+#https://github.com/bohanyang/debi
+```
+curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chmod a+rx debi.sh
+```
+```
+./debi.sh --cdn --network-console --ethx --version 10 --bbr --user root --password Acd123123
+```
+```
+shutdown -r now
+```
+CTRL+A AND 4
