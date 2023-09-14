@@ -36,6 +36,14 @@ OR
 bash <(curl -Ls https://raw.githubusercontent.com/missovo/XrayR-script/main/install.sh)
 ```
 
+#SPEEDTEST
+
+```
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.rpm.sh | sudo bash
+```
+
+
+
 #https://github.com/bohanyang/debi
 ```
 curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chmod a+rx debi.sh
@@ -47,3 +55,11 @@ curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chm
 shutdown -r now
 ```
 CTRL+A AND 4
+
+#流媒体检测
+```
+bash <(curl -L -s check.unlock.media)
+```
+```
+bash <(curl -Ls unlock.moe)
+```
