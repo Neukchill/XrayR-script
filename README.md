@@ -39,7 +39,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/missovo/XrayR-script/main/inst
 #SPEEDTEST
 
 ```
-curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.rpm.sh | sudo bash
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
 ```
 
 
